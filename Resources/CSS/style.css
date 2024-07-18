@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+body{
+    margin: 0;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+}
+
+.big-header{
+    background-color: black;
+    background-image: url(/Resources/img/backdrop.png);
+    background-size: cover; /* or contain, depending on your needs */
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    height: 50px;
+}
+
+.header-image{
+    height: 200px;
+    flex-shrink: 0;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+li{
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+}
+
+a{
+    color: #FF0000;
+    text-decoration: none;
+}
+
+.header-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.main-header{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+}
+
+.header-content{
+    color: white;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.header-content-heading{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.button{
+    padding-top: 15px;
+}
+
+button{
+    padding: 2px 10px;
+    color: white;
+    border:none;
+    border:solid 1px rgb(255, 255, 255);
+    border-radius: 5px;
+    background: rgb(255, 255, 225, 0);
+}
+
+.header-content-heading{
+    font-family: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.info-img{
+    height: 150px;
+}
+
+.card-container{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 1;
+    gap: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.item{
+    text-align: center;
+}
+
+.mid-text{
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
