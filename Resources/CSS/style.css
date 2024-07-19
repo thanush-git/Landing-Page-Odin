@@ -7,11 +7,8 @@ body{
 
 .big-header{
     background-color: black;
-<<<<<<< HEAD
     background-image: url(/Resources/img/backdrop.png);
-=======
     background-image: url("../img/backdrop.png"); 
->>>>>>> bbddce122ef48726ca49c2172fdf7c79a49ede72
     background-size: cover; 
     background-position: center center;
     background-attachment: fixed;
@@ -199,7 +196,3 @@ button{
 .footer a{
     color: white;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> bbddce122ef48726ca49c2172fdf7c79a49ede72
