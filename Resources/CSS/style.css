@@ -7,7 +7,7 @@ body{
 
 .big-header{
     background-color: black;
-    background-image: url(../img/backdrop.png); 
+    background-image: url('../img/backdrop.png'); 
     background-size: cover; 
     background-position: center center;
     background-attachment: fixed;
