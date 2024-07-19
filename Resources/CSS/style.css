@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
 
+/* you can set font size to 62.5% on the html element to set the default relative unit values to 10px. by default the browser does it at 16px. so if you have to put 30px of padding on something. you can do 3rem instead of trying to do the math to figure out how many rems fit into 30 px. Heres more info on that: https://stackoverflow.com/questions/58421314/what-does-font-size-62-5-do next time you do css, i would also import a css reset so you have some standard defaults off the rip  */
+
 body{
     margin: 0;
     font-family: Roboto,Arial, Helvetica, sans-serif;
 }
 
+/* you can use shorthand to do all of these instead of doing every selector specifically. look up background image shorthands on mdn */
 .big-header{
     background-color: black;
     background-image: url('../img/backdrop.png'); 
@@ -41,6 +44,7 @@ a{
     text-decoration: none;
 }
 
+/* for things like padding and margins you should use rem and em units to make them more responsive. youll learn about this once you get to mobile first responsive design though */
 .header-links{
     display: flex;
     justify-content: space-between;
@@ -195,3 +199,5 @@ button{
 .footer a{
     color: white;
 }
+
+/* this all looks really good overall! Once you get to responsive css, youll want to start styling things around a 400px viewport width. then every other style will sit into a media query. youll learn this stuff later though. pretty good job overall though. eep it up doooood! */
