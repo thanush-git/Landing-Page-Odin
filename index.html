@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- usually the css file would be called styles, not style. Resources folder should be named assets. and inside assets you should have subfolders for images, css, and js. Not really that important right now though -->
     <link rel="stylesheet" href="./Resources/CSS/style.css">
     <title>Nissan Silvia | Odin Project</title>
 </head>
 <body>
-
+    <!-- this div should be a section or header element instead -->
     <div class="big-header">
         <div class="main-header">
         <div class="align-header">
+        <!-- this div should be a nav element instead -->
         <div class="header-links">
+            <!-- look into srcset attribute on images -->
             <img class="logo" src="./Resources/img/logo.png" alt="Nissan Logo">
             <ul>
+                <!-- if your links arent going anywhere, just default to an octothorpe, example: href="#" -->
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./index.html">Shop</a></li>
                 <li><a href="./index.html">Contact</a></li>
@@ -21,8 +25,11 @@
         </div>
         <div class="header-content">
             <div class="header-text">
+            <!-- this should be an H1 element instead -->
             <div class="header-content-heading">Elegance In Motion</div>
+            <!-- this should be a p element -->
             <div class="header-content-body">Step back in time with the timeless beauty of the Nissan Silvia. This vintage masterpiece combines classic design with robust performance, capturing the essence of automotive history. Experience the nostalgia and charm of a car that has defined elegance and thrill for generations.</div>
+            <!-- your buttons are missing some default attributes like type="button" you dont really need to wrap this in a div either-->
             <div class="button"><button>Learn More</button></div>
             </div>
             <img class="header-image" src="./Resources/img/header-image.jpg" alt="A Purple Nissan Silvia">
@@ -31,9 +38,11 @@
     </div>
     </div>
 
-
+    <!-- this div should be a section element instead -->
     <div class="mid-region">
+        <!-- this should be an H2 element instead -->
         <div class="mid-text">Nissan Silvia: Specifications</div>
+        <!-- this could be a list with a ul and li instead of div -->
         <div class="card-container">
 
             <div class="item">
@@ -58,13 +67,13 @@
 
         </div>
     </div>
-
+    <!-- this div should be a section element instead -->
     <div class="testimonial">
         <div class="test-text">
             <p>Experience the perfect blend of power and style with the Nissan Silvia. Renowned for its sleek design and superior performance, the Silvia is equipped with a turbocharged 2.0L inline-4 engine delivering up to 250 horsepower, and a rear-wheel-drive configuration for a thrilling driving experience. Advanced suspension systems provide exceptional handling and stability, while the driver-centric cockpit features premium materials and cutting-edge technology. The sporty yet sophisticated look of the Nissan Silvia ensures it stands out on the road, making every drive unforgettable.</p>
         </div>
     </div>
-
+    <!-- this div should be a section element instead -->
     <div class="CTA">
         <div class="CTA-banner">
             <div>
@@ -74,7 +83,7 @@
             <button class="CTA-button">Contact</button>
         </div>
     </div>
-
+    <!-- this div should be a footer element instead -->
     <div class="footer">
         <div class="footer-note"><a href="https://github.com/thanush-git">Made with ♥ by Thanush</a></div>
         
